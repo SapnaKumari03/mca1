@@ -1,0 +1,22 @@
+h1{
+    text-align: center;
+    background-color: aquamarine;
+}
+h4{
+    text-align: center;
+    background-color: antiquewhite;
+    color: rgb(56, 4, 4);
+}
+.box{
+    width: 300px;
+    height: 500px;
+    grid-column: span;
+    display: grid;
+    /* display: flex; */
+    border: 3px solid blue;
+    background-color: palevioletred;
+    box-sizing: border-box;
+    padding: 20px;
+    margin: 20px;
+
+}
