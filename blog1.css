@@ -1,0 +1,359 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 20px;
+    background: white;
+}
+
+/* Hero Section */
+.hero {
+    height: 100vh;
+    background-image: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Hero Content */
+.hero-content {
+    text-align: center;
+    color: white;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.hero-content h1 {
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.hero-content p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+/* Buttons */
+.buttons .btn {
+    padding: 12px 25px;
+    text-decoration: none;
+    margin: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.primary {
+    background: #7b61ff;
+    color: white;
+}
+
+.secondary {
+    border: 2px solid white;
+    color: white;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #ffffff;
+}
+
+/* SEO Section */
+.seo-section {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.seo-img {
+    width: 80%;
+    max-width: 700px;
+    margin-bottom: 40px;
+}
+
+.seo-section h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.seo-section p {
+    color: #777;
+    max-width: 700px;
+    margin: auto;
+    line-height: 1.6;
+}
+
+/* Button */
+.btn {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 14px 30px;
+    background: #7b61ff;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Portfolio Section */
+.portfolio-section {
+    padding: 60px 20px;
+    background: #f5f5f5;
+}
+
+.portfolio-section h2 {
+    font-size: 30px;
+}
+
+.portfolio-section p {
+    color: #777;
+    max-width: 700px;
+    line-height: 1.6;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Portfolio Text Section */
+.portfolio-text {
+    padding: 70px 20px;
+    background: #f5f5f5;
+}
+
+.portfolio-text h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.portfolio-text p {
+    color: #777;
+    max-width: 700px;
+    line-height: 1.6;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 14px 30px;
+    background: #7b61ff;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Portfolio Image Section */
+.portfolio-image {
+    text-align: center;
+    padding: 60px 20px;
+    background: white;
+}
+
+.portfolio-image img {
+    width: 90%;
+    max-width: 900px;
+}
+
+/* Parallax Section */
+.parallax {
+    height: 400px;
+    background-image: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding-top: 120px;
+}
+
+.parallax h2 {
+    font-size: 36px;
+}
+
+.parallax p {
+    max-width: 700px;
+    margin: auto;
+    line-height: 1.6;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Parallax Section */
+.parallax {
+    height: 450px;
+    background-image: url("https://images.unsplash.com/photo-1507525428034-b723cf961d3e");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+    text-align: center;
+    padding: 120px 20px;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Top Image */
+.header-image {
+    height: 300px;
+    background-image: url("https://images.unsplash.com/photo-1501785888041-af3ef285b470");
+    background-size: cover;
+    background-position: center;
+}
+
+/* Latest Projects Section */
+.latest-projects {
+    background: #111;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.latest-projects h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.latest-projects p {
+    color: #ccc;
+    font-size: 16px;
+}
+
+/* Project Section */
+.project {
+    height: 350px;
+    background-image: url("https://images.unsplash.com/photo-1500530855697-b586d89ba3ee");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+/* Text on Image */
+.project-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 26px;
+    font-weight: bold;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Common Project Style */
+.project {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+/* Text on Image */
+.project-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+    background: rgba(0,0,0,0.4);
+    padding: 10px 20px;
+}
+
+/* Individual Images */
+.project14 {
+    background-image: url("https://images.unsplash.com/photo-1500530855697-b586d89ba3ee");
+}
+
+.project13 {
+    background-image: url("https://images.unsplash.com/photo-1501785888041-af3ef285b470");
+}
+
+.project12 {
+    background-image: url("https://images.unsplash.com/photo-1482192596544-9eb780fc7f66");
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Testimonial Section */
+.testimonial {
+    background-image: url("https://images.unsplash.com/photo-1507525428034-b723cf961d3e");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.testimonial img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-top: 30px;
+    border: 4px solid white;
+}
+
+.testimonial h2 {
+    font-size: 36px;
+}
+
+.testimonial p {
+    max-width: 700px;
+    margin: auto;
+    line-height: 1.6;
+}
+
+/* Clients Section */
+.clients {
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.client-logos {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin-top: 40px;
+}
+
+.client-logos img {
+    width: 80px;
+    opacity: 0.6;
+}
+
+/* CTA Section */
+.cta {
+    text-align: center;
+    padding: 70px 20px;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 15px 40px;
+    background: #7b61ff;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.content{
+    margin: auto 200px;
+}
+
