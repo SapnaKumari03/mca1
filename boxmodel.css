@@ -1,0 +1,13 @@
+#box {
+  background: rgb(133, 90, 4);
+  padding: 40px;
+  margin: 30px 60px;
+}
+
+img {
+  width: 400px;
+  height: 400px;
+  padding: 40px 20px;
+  display: block;
+  margin: auto;
+}
